@@ -17,7 +17,7 @@ Utilizes Shortcuts and AppleScript implementations.
 For macOS:
 
 1. Install plamo-translate-cli. Refer to the provided link for details.  
-   &emsp; [https://tech.preferred.jp/ja/blog/plamo-translate-cli/](https://tech.preferred.jp/ja/blog/plamo-translate-cli/)
+   &emsp; [https://tech.preferred.jp/ja/blog/plamo-translate-cli/](https://tech.preferred.jp/ja/blog/plamo-translate-cli/)  
    &emsp; [https://github.com/pfnet/plamo-translate-cli](https://github.com/pfnet/plamo-translate-cli)
 
 2. Create a symbolic link for executable file (plamo-translate) in `/usr/local/bin`.
