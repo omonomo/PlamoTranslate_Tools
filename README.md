@@ -2,7 +2,7 @@
 	<thead>
     	<tr>
       		<th style="text-align:center">日本語</th>
-      		<th style="text-align:center"><a href="README_en.md">English</a></th>
+      		<th style="text-align:center"><a href="README-en.md">English</a></th>
     	</tr>
   	</thead>
 </table>
@@ -16,13 +16,13 @@ PLaMo翻訳 CLI をちょっと便利に使うためのツール類です。
 
 MacOSにて
 
-1. plamo-translate-cli をインストールします。リンク先をご参照下さい。
+1. plamo-translate-cli をインストールします。リンク先をご参照下さい。  
    &emsp; [https://tech.preferred.jp/ja/blog/plamo-translate-cli/](https://tech.preferred.jp/ja/blog/plamo-translate-cli/)  
    &emsp; [https://github.com/pfnet/plamo-translate-cli](https://github.com/pfnet/plamo-translate-cli)
 
 2. 実行ファイル (plamo-translate) のシンボリックリンクを `/usr/local/bin` に作ります。
 
-3. ショートカットを起動し、以下のファイルを読み込みます。
+3. ショートカットを起動し、以下のファイルを読み込みます。  
    &emsp; PLaMo-Translate ON.shortcut  
    &emsp; PLaMo-Translate OFF.shortcut  
    &emsp; Translated with PLaMo.shortcut
@@ -55,7 +55,7 @@ PopClip 機能拡張:
 
 PLaMo-Translate ON.shortcut:  
 dev.omonomo.plamo-server.plist:  
-   &emsp; plamo-translate コマンドに `--precision` オプションを付けることで使用モデルを選択できます [4bit, 8bit, bf16] (デフォルト: 4bit)
+   &emsp; plamo-translate コマンドに `--precision` オプションを付けることで使用モデルを選択できます [4bit, 8bit, bf16] (デフォルト: 4bit)。
 
 Translated with PLaMo.shortcut:  
    &emsp; 変数定義を変更することで翻訳元と翻訳先の言語を指定できます。
@@ -70,7 +70,7 @@ PLaMo-Translate OFF を使用してもサーバーが終了できなくなった
 ```
 ps aux | grep -E 'PID|plamo-translate'
 ```
-表示されたリストの PID をして強制終了させてください。
+表示されたリストの PID を指定して強制終了させてください。
 ```
 kill -9 <PID>
 ```

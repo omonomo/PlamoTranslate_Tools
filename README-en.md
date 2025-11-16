@@ -16,7 +16,7 @@ Utilizes Shortcuts and AppleScript implementations.
 
 For macOS:
 
-1. Install plamo-translate-cli. Refer to the provided link for details.
+1. Install plamo-translate-cli. Refer to the provided link for details.  
    &emsp; [https://tech.preferred.jp/ja/blog/plamo-translate-cli/](https://tech.preferred.jp/ja/blog/plamo-translate-cli/)
    &emsp; [https://github.com/pfnet/plamo-translate-cli](https://github.com/pfnet/plamo-translate-cli)
 
@@ -70,7 +70,7 @@ If the server remains unresponsive even after using PLaMo-Translate OFF, open a 
 ```
 ps aux | grep -E 'PID|plamo-translate'
 ```
-Then terminate the process by specifying its PID from the displayed list.
+Then force-terminate the server using the PID values from the displayed list.
 ```
 kill -9 <PID>
 ```
