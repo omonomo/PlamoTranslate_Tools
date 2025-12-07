@@ -7,9 +7,16 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/plamo-translate</string>
-        <string>server</string>
+        <string>/bin/zsh</string>
+        <string>-c</string>
+        <string>mkdir -p "$TMPDIR" && exec /usr/local/bin/plamo-translate server</string>
     </array>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>TMPDIR</key>
+        <string>/tmp/plamo-translate</string>
+    </dict>
 
     <key>RunAtLoad</key>
     <true/>
