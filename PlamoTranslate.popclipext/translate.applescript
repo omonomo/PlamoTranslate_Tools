@@ -1,7 +1,7 @@
 set source to "{popclip option source}" -- 翻訳元言語
 set target to "{popclip option target}" -- 翻訳先言語
 set input to "{popclip text}" -- 入力テキスト
-set configPath to "/tmp/plamo-translate" -- 設定ファイルの保存先
+set configPath to "/tmp" -- 設定ファイルの保存先
 set configFile to configPath & "/plamo-translate-config.json" -- 設定ファイル
 
 set isRunning to false
