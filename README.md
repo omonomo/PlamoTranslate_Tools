@@ -33,18 +33,18 @@ MacOSにて
 
 ## 使い方
 
-PLaMo-Translate ON:  
+### PLaMo-Translate ON
    &emsp; サーバーを起動。メモリ残量に注意。
 
-PLaMo-Translate OFF:  
+### PLaMo-Translate OFF
    &emsp; サーバーを停止。
 
-Translated with PLaMo:  
+### Translated with PLaMo
    &emsp; テキストを選択後、共有シートやサービスメニューから「Translated with PLaMo」を選択。  
    &emsp; 何も選択していない場合はクリップボードの内容を翻訳します。  
    &emsp; Spotlight 検索から文章を入力して翻訳させることもできます。
 
-PopClip 機能拡張:  
+### PopClip 機能拡張
    &emsp; テキストを選択してポップアップメニューから [PL] を選択。
 
 翻訳結果ダイアログで [Copy] を選択すると結果をクリップボードにコピーできます。
@@ -53,11 +53,10 @@ PopClip 機能拡張:
 
 ソースコードを直接編集してください。
 
-PLaMo-Translate ON.shortcut:  
-dev.omonomo.plamo-server.plist:  
+### PLaMo-Translate ON.shortcut<br>dev.omonomo.plamo-server.plist
    &emsp; plamo-translate コマンドに `--precision` オプションを付けることで使用モデルを選択できます [4bit, 8bit, bf16] (デフォルト: 4bit)。
 
-Translated with PLaMo.shortcut:  
+### Translated with PLaMo.shortcut
    &emsp; 変数定義を変更することで翻訳元と翻訳先の言語を指定できます。
 ```
 	set source to "<翻訳元言語>"
