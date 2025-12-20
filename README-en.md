@@ -31,6 +31,10 @@ For macOS:
 
 5. To use [PopClip](https://www.popclip.app), install the extension. Double-click PlamoTranslate.popclipext to install it.
 
+## Automatic Server Off Version
+
+If you install files from the "automatic_off_ver" directory, the server will automatically shut down after 10 minutes of inactivity.
+
 ## Usage Instructions
 
 ### PLaMo-Translate ON

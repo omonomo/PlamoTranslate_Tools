@@ -31,6 +31,10 @@ MacOSにて
 
 5. [PopClip](https://www.popclip.app) を使う場合は機能拡張をインストールします。PlamoTranslate.popclipext をダブルクリックすることでインストールできます。
 
+## 自動サーバー OFF バージョン
+
+「automatic_off_ver」ディレクトリ内のファイルをインストールした場合、翻訳せずに10分経過すると自動でサーバーが終了します。
+
 ## 使い方
 
 ### PLaMo-Translate ON
