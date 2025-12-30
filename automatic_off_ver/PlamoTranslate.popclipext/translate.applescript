@@ -12,6 +12,7 @@ end try
 
 if isRunning is false then -- サーバーが起動していなければ起動
 	do shell script "shortcuts run 'PLaMo-Translate ON'" -- ファイル名注意
+	delay 3.0
 end if
 
 try -- ポート番号取得
