@@ -31,10 +31,6 @@ For macOS:
 
 5. To use [PopClip](https://www.popclip.app), install the extension. Double-click PlamoTranslate.popclipext to install it.
 
-## Automatic Server Off Version
-
-If you install files from the "automatic_off_ver" directory, the server will automatically shut down after 10 minutes of inactivity.
-
 ## Usage Instructions
 
 ### PLaMo-Translate ON
@@ -52,6 +48,10 @@ If you install files from the "automatic_off_ver" directory, the server will aut
    &emsp; Select text and choose [PL] from the pop-up menu.
 
 Selecting [Copy] in the translation results dialog allows you to copy the results to the Clipboard.
+
+## Automatic Server Off Version
+
+If you install files from the "automatic_off_ver" directory, the server will automatically shut down after 10 minutes of inactivity.
 
 ## Customization
 
@@ -78,7 +78,7 @@ Then force-terminate the server using the PID values from the displayed list.
 kill -9 <PID>
 ```
 
-## AppleScript Bug?
+## Shortcuts or AppleScript Bug?
 
 When attempting to immediately translate the clipboard content after translation, the tool may produce an error.
 
