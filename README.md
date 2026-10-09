@@ -2,7 +2,7 @@
 	<thead>
     	<tr>
       		<th style="text-align:center">日本語</th>
-      		<th style="text-align:center"><a href="README-en.md">English</a></th>
+      		<th style="text-align:center"><a href="README_en.md">English</a></th>
     	</tr>
   	</thead>
 </table>
